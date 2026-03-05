@@ -1,5 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { ANTHROPIC_API_KEY } from '$env/static/private';
+
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY ?? '';
 
 let _client: Anthropic | null = null;
 

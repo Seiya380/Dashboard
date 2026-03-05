@@ -10,10 +10,10 @@ return {
 	assets: new Set(["Knights-of-Sidonia.png","icon-192.png","icon-512.png","icon.svg","manifest.json","sw.js"]),
 	mimeTypes: {".png":"image/png",".svg":"image/svg+xml",".json":"application/json",".js":"text/javascript"},
 	_: {
-		client: {start:"_app/immutable/entry/start.DJAW32wv.js",app:"_app/immutable/entry/app.glOt08N8.js",imports:["_app/immutable/entry/start.DJAW32wv.js","_app/immutable/chunks/BWvDn0A1.js","_app/immutable/chunks/CsVHGGuQ.js","_app/immutable/entry/app.glOt08N8.js","_app/immutable/chunks/CsVHGGuQ.js","_app/immutable/chunks/CRa6zWHF.js","_app/immutable/chunks/51XDbXE4.js","_app/immutable/chunks/BM3iUIG-.js","_app/immutable/chunks/B4uFvTJC.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.CNyVm_w-.js",app:"_app/immutable/entry/app.cmcUKaJm.js",imports:["_app/immutable/entry/start.CNyVm_w-.js","_app/immutable/chunks/BN8ODvaQ.js","_app/immutable/chunks/CsVHGGuQ.js","_app/immutable/entry/app.cmcUKaJm.js","_app/immutable/chunks/CsVHGGuQ.js","_app/immutable/chunks/CRa6zWHF.js","_app/immutable/chunks/51XDbXE4.js","_app/immutable/chunks/BM3iUIG-.js","_app/immutable/chunks/B4uFvTJC.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
-			__memo(() => import('./chunks/0-CsHn3RLQ.js')),
-			__memo(() => import('./chunks/1-C2z8jPEJ.js')),
+			__memo(() => import('./chunks/0-8VqZHqqT.js')),
+			__memo(() => import('./chunks/1-Y-7_A4mM.js')),
 			__memo(() => import('./chunks/2-CdIin3m6.js'))
 		],
 		remotes: {
@@ -53,7 +53,7 @@ return {
 				pattern: /^\/api\/calendar\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-DRAYRhM6.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-Bj0q4ty7.js'))
 			},
 			{
 				id: "/api/calendar/ics",
@@ -67,14 +67,14 @@ return {
 				pattern: /^\/api\/calendar\/oauth\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-BKxXy6bH.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-C2Gp3co1.js'))
 			},
 			{
 				id: "/api/calendar/oauth/callback",
 				pattern: /^\/api\/calendar\/oauth\/callback\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-CC_gOnP-.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-yTmlgUDC.js'))
 			},
 			{
 				id: "/api/calendar/subscribe",
@@ -95,7 +95,7 @@ return {
 				pattern: /^\/api\/chat\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-C8v5I7nA.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-Cx8gL9A2.js'))
 			},
 			{
 				id: "/api/embed",
@@ -158,42 +158,42 @@ return {
 				pattern: /^\/api\/spotify\/callback\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-5emFE47i.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-XrySCy0e.js'))
 			},
 			{
 				id: "/api/spotify/disconnect",
 				pattern: /^\/api\/spotify\/disconnect\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-DaUEpGJs.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-XJQD4CXF.js'))
 			},
 			{
 				id: "/api/spotify/login",
 				pattern: /^\/api\/spotify\/login\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-F5g-sX5Y.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-Jd_hRhB8.js'))
 			},
 			{
 				id: "/api/spotify/now-playing",
 				pattern: /^\/api\/spotify\/now-playing\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-BAHCu4si.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-BmswkGdf.js'))
 			},
 			{
 				id: "/api/spotify/playlists",
 				pattern: /^\/api\/spotify\/playlists\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-CNy4-0l2.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-BUtXdB9o.js'))
 			},
 			{
 				id: "/api/spotify/recent",
 				pattern: /^\/api\/spotify\/recent\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-BJv26056.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-l0NtZ7P_.js'))
 			},
 			{
 				id: "/api/tasks",

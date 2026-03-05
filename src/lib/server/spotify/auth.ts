@@ -1,10 +1,8 @@
 import { db } from '$lib/server/db';
 import { settings } from '$lib/server/db/schema';
 import { eq } from 'drizzle-orm';
-import { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET } from '$env/static/private';
-
-export const CLIENT_ID     = SPOTIFY_CLIENT_ID;
-export const CLIENT_SECRET = SPOTIFY_CLIENT_SECRET;
+export const CLIENT_ID     = process.env.SPOTIFY_CLIENT_ID     ?? '';
+export const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET ?? '';
 
 function now() { return new Date().toISOString(); }
 

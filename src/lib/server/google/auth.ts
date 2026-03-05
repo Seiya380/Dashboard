@@ -1,6 +1,8 @@
 import { google } from 'googleapis';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
-import { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET } from '$env/static/private';
+
+const GOOGLE_CLIENT_ID     = process.env.GOOGLE_CLIENT_ID     ?? '';
+const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET ?? '';
 
 const TOKEN_PATH = './data/google-tokens.json';
 const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
