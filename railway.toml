@@ -1,0 +1,7 @@
+[build]
+buildCommand = "npm install -g pnpm && pnpm install && pnpm build"
+
+[deploy]
+startCommand = "node build"
+healthcheckPath = "/"
+restartPolicyType = "on_failure"
